@@ -1,0 +1,1 @@
+// The code in this file should run tests for managers powered by jest
