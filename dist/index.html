@@ -1,2 +1,80 @@
 <!--This file should have the html code for the deployed application and there should be all the information of the users-->
 <!--This is an auxiliary file and the first one to modify-->
+<!--Metadata-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FOUNDATION STYLE API LINK-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+        integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <!--GOOGLE FONTS STYLE LINK-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <!--Compresed css-->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Team Profile Generator</title>
+</head>
+
+<body>
+    <!--First create the header for the markdown-->
+    <header>
+        <h1 class="text-centered">My Team</h1>
+    </header>
+    <!--Then a main section where i am going to deal with the information provided by the users-->
+    <main>
+        <!--First section manager cards-->
+        <section class="card" id="card-manager">
+            <div class="blue">
+                <h2 class="name">Jared</h2>
+                <h2 class="work">Manager</h2>
+            </div>
+            <ul>
+                <li class="table" id="id">ID:</li>
+                <li class="table" id="mail">Email:</li>
+                <li class="table" id="office">Office number:</li>
+            </ul>
+        </section>
+        <!--Second section Engineer card-->
+        <section class="card" id="card-engineer">
+            <div class="blue">
+                <h2 class="name">Alec</h2>
+                <h2 class="work">Engineer</h2>
+            </div>
+            <ul>
+                <li class="table" id="id">ID:</li>
+                <li class="table" id="mail">Email:</li>
+                <li class="table" id="github">GitHub:</li>
+            </ul>
+        </section>
+        <!--Third and last section card intern-->
+        <section class="card" id="card-intern">
+            <div class="blue">
+                <h2 class="name">John</h2>
+                <h2 class="work">Intern</h2>
+            </div>
+            <ul>
+                <li class="table" id="id">ID:</li>
+                <li class="table" id="mail">Email:</li>
+                <li class="table" id="school">School:</li>
+            </ul>
+        </section>
+        <!--Fourth section employee-->
+        <section class="card" id="card-employee">
+            <div class="blue">
+                <h2 class="name">Andres</h2>
+                <h2 class="work">Employee</h2>
+            </div>
+            <ul>
+                <li class="table" id="id">ID:</li>
+                <li class="table" id="mail">Email:</li>
+                <li class="table" id="post">Post:</li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>

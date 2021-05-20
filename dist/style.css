@@ -1,2 +1,57 @@
 /*In this file should be the style for the app that is going to be rendered in the html so the html should have all the spaces to fill on the css and then we can write the files with fs in the index.js*/
 /*So this is an auxiliary file*/
+
+/*First define the header of the page as centered and background color red*/
+header {
+    background-color: #E10032;
+    color: #DBE8E1;
+    text-align: center;
+    padding: 3em;
+    margin-bottom: 5em;
+    border-bottom: solid #034687 5px;
+}
+/*Then we define the align of the sections*/
+.card {
+    display: inline-flex;
+    margin: 2em;
+    border-radius: 15px;
+}
+
+/*Align for all the boxes*/
+#card-manager {
+    margin-left: 25%;
+}
+
+/*Style for the headers on the cards*/
+.blue {
+    background-color: #034687;
+    padding: 5px;
+    color: #DBE8E1;
+}
+
+/*Font style for the h2*/
+h2 {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Style for the uls*/
+ul {
+    padding: 50px;
+    margin: 0%;
+    list-style: none;
+    background-color: #DBE8E1;
+    
+}
+
+/*Style for the li elements*/
+.table {
+    background-color: white;
+    margin: 0;
+    border: solid  #034687 1px;
+}
+
+
+
+
