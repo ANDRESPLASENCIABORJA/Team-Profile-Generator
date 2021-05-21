@@ -52,6 +52,20 @@ ul {
     border: solid  #034687 1px;
 }
 
+/*Responsive for middle screens*/
+@media screen and (max-width: 1240px) {
+    #card-manager {
+        margin-left: 0;
+    }
+} 
+
+/*Responsive for movile devices*/
+@media screen and (max-width: 420px) {
+    #card-manager {
+        margin-left: 6.25%;
+        width: 0%;
+    }
+} 
 
 
 
