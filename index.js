@@ -36,7 +36,53 @@ const questions = [
         name: 'team',
         message: 'Would you like to add members to your team?',
         choices: ['Engineer', 'Intern', 'Employee'],
-    }
+    },
+    {
+        type: 'input',
+        message: 'What is your Engineer name?',
+        name: 'engineerName',
+    },
+    {
+        type: 'input',
+        message: 'Type your Engineer id number',
+        name: 'engineerId',
+    },
+    {
+        type: 'input',
+        message: 'What is your engineer email?',
+        name: 'engineerEmail',
+    },
+    {
+        type: 'input',
+        message: 'Type your Engineer github',
+        name: 'github',
+    },
+    {
+        type: 'input',
+        message: 'Type your Intern name',
+        name: 'internName',
+    },
+    {
+        type: 'input',
+        message: 'Type your Intern id number',
+        name: 'internId',
+    },
+    {
+        type: 'input',
+        message: 'Type your Intern email',
+        name: 'internEmail',
+    },
+    {
+        type: 'input',
+        message: 'Type your Intern school',
+        name: 'school',
+    },
+    {
+        type: 'confirm',
+        message: 'Do you want to add another member to your team?',
+        name: 'confirmation',
+    },
+
 ];
    
 

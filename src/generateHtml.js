@@ -1,7 +1,7 @@
 // TODO: Create functions to generate markdown for the HTML file 
 //Create a function to generate the markdown for the html file
 function generateHtml(data){
-    const {name, id, email, role, officeNumber, github, school} = data;
+    const {name, id, email, role, officeNumber, github, school, engineerEmail, engineerName, engineerId, internEmail, internId, internName} = data;
     
     return `<!DOCTYPE html>
     <html lang="en">
@@ -43,24 +43,24 @@ function generateHtml(data){
             <!--Second section Engineer card-->
             <section class="card" id="card-engineer">
                 <div class="blue">
-                    <h2 class="name">${name}</h2>
+                    <h2 class="name">${engineerName}</h2>
                     <h2 class="work">Engineer</h2>
                 </div>
                 <ul>
-                    <li class="table" id="id">ID:${id}</li>
-                    <li class="table" id="mail">Email:${email}</li>
+                    <li class="table" id="id">ID:${engineerId}</li>
+                    <li class="table" id="mail">Email:${engineerEmail}</li>
                     <li class="table" id="github">GitHub:${github}</li>
                 </ul>
             </section>
             <!--Third and last section card intern-->
             <section class="card" id="card-intern">
                 <div class="blue">
-                    <h2 class="name">${name}</h2>
+                    <h2 class="name">${internName}</h2>
                     <h2 class="work">Intern</h2>
                 </div>
                 <ul>
-                    <li class="table" id="id">ID:${id}</li>
-                    <li class="table" id="mail">Email:${email}</li>
+                    <li class="table" id="id">ID:${internId}</li>
+                    <li class="table" id="mail">Email:${internEmail}</li>
                     <li class="table" id="school">School:${school}</li>
                 </ul>
             </section>
